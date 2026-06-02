@@ -8,7 +8,18 @@ export const Container = styled.View`
     padding: 20px;
 `
 
-export const ScheduleTop = styled.View``
+export const ScheduleTop = styled.View`
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const ScheduleTopContent = styled.View`
+    display: flex;
+    gap: 12px;
+`
 
 export const ScheduleTopAvatar = styled.Image``
 
@@ -20,7 +31,9 @@ export const ScheduleTopDescription = styled.Text``
 
 export const ScheduleTopIcon = styled.Image``
 
-export const ScheduleBottom = styled.View``
+export const ScheduleBottom = styled.View`
+    width: 100%;
+`
 
 export const ScheduleBottomContainer = styled.View``
 
