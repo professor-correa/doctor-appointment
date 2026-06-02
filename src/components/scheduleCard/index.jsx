@@ -4,20 +4,20 @@ export const ScheduleCard = () => {
     return (
         <Container>
             <ScheduleTop>
-                <ScheduleTopAvatar />
+                <ScheduleTopAvatar source={require("../../assets/doctor.png")} />
                 <ScheduleTopTitle>
                     <ScheduleTopLabel>Dr. Imran Syahir</ScheduleTopLabel>
                     <ScheduleTopDescription>General Doctor</ScheduleTopDescription>
                 </ScheduleTopTitle>
-                <ScheduleTopIcon />
+                <ScheduleTopIcon source={require("../../assets/arrow-right.png")} />
             </ScheduleTop>
             <ScheduleBottom>
                 <ScheduleBottomContainer>
-                    <ScheduleBottomIcon />
+                    <ScheduleBottomIcon source={require("../../assets/calendar.png")} />
                     <ScheduleBottomTitle>Sunday, 12 June</ScheduleBottomTitle>
                 </ScheduleBottomContainer>
                 <ScheduleBottomContainer>
-                    <ScheduleBottomIcon />
+                    <ScheduleBottomIcon source={require("../../assets/clock.png")}/>
                     <ScheduleBottomTitle>11:00 - 12:00 AM</ScheduleBottomTitle>
                 </ScheduleBottomContainer>
             </ScheduleBottom>

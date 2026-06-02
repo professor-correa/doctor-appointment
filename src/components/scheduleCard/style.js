@@ -10,20 +10,20 @@ export const Container = styled.View`
 
 export const ScheduleTop = styled.View``
 
-export const ScheduleTopAvatar = styled.View``
+export const ScheduleTopAvatar = styled.Image``
 
 export const ScheduleTopTitle = styled.View``
 
-export const ScheduleTopLabel = styled.View``
+export const ScheduleTopLabel = styled.Text``
 
-export const ScheduleTopDescription = styled.View``
+export const ScheduleTopDescription = styled.Text``
 
-export const ScheduleTopIcon = styled.View``
+export const ScheduleTopIcon = styled.Image``
 
 export const ScheduleBottom = styled.View``
 
 export const ScheduleBottomContainer = styled.View``
 
-export const ScheduleBottomIcon = styled.View``
+export const ScheduleBottomIcon = styled.Image``
 
-export const ScheduleBottomTitle = styled.View``
+export const ScheduleBottomTitle = styled.Text``
